@@ -12,7 +12,8 @@ $(call inherit-product, vendor/xiaomi/zeus/zeus-vendor.mk)
 
 # Overlay
 PRODUCT_PACKAGES += \
-    SettingsProviderResZeus
+    SettingsProviderResZeus \
+    WifiResZeus
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
