@@ -14,6 +14,7 @@ $(call inherit-product, vendor/xiaomi/dagda/dagda-vendor.mk)
 PRODUCT_PACKAGES += \
     ApertureResZeus \
     FrameworksResZeus \
+    LineageResZeus \
     NfcResZeus \
     SettingsProviderResZeus \
     SettingsResZeus \
