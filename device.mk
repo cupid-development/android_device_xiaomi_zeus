@@ -14,6 +14,7 @@ $(call inherit-product, vendor/xiaomi/zeus/zeus-vendor.mk)
 PRODUCT_PACKAGES += \
     ApertureResZeus \
     FrameworksResZeus \
+    LineageResZeus \
     NfcResZeus \
     SettingsProviderResZeus \
     SettingsResZeus \
