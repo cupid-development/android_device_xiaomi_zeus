@@ -14,6 +14,7 @@ $(call inherit-product, vendor/xiaomi/zeus/zeus-vendor.mk)
 PRODUCT_PACKAGES += \
     FrameworksResZeus \
     SettingsProviderResZeus \
+    SettingsResZeus \
     SystemUIResZeus \
     WifiResZeus
 
