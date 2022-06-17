@@ -12,6 +12,7 @@ $(call inherit-product, vendor/xiaomi/zeus/zeus-vendor.mk)
 
 # Overlay
 PRODUCT_PACKAGES += \
+    FrameworksResZeus \
     SettingsProviderResZeus \
     WifiResZeus
 
