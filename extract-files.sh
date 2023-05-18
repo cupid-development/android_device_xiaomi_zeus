@@ -8,6 +8,12 @@
 
 function blob_fixup() {
     case "${1}" in
+        vendor/etc/camera/zeus_enhance_motiontuning.xml|vendor/etc/camera/zeus_motiontuning.xml)
+            sed -i 's/xml=version/xml version/g' "${2}"
+            ;;
+        vendor/etc/camera/pureShot_parameter.xml|vendor/etc/camera/pureView_parameter.xml)
+            sed -i 's/=\([0-9]\+\)>/="\1">/g' "${2}"
+            ;;
     esac
 }
 
