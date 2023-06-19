@@ -507,6 +507,7 @@ vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod
 vendor/lib64/hw/fingerprint.goodix_fod6.so:vendor/lib64/hw/fingerprint.goodix_fod6.default.so
 vendor/lib64/libgf_hal.so
 vendor/lib64/libgf_hal6.so
+vendor/lib64/libhvx_proxy_stub.so
 vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so
 
 # Graphics (Adreno firmware)
