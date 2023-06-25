@@ -497,18 +497,12 @@ vendor/firmware/evautil64.mdt
 vendor/etc/display/qdcm_calib_data_xiaomi_38_0c_0a_cmd_mode_dsc_dsi_panel.json
 vendor/etc/mdss_dsi_l2_38_0c_0a_dsc_cmd_mi.xml
 
-# Fingerprint
-vendor/lib/hw/fingerprint.goodix_fod.so:vendor/lib/hw/fingerprint.goodix_fod.default.so
-vendor/lib/hw/fingerprint.goodix_fod6.so:vendor/lib/hw/fingerprint.goodix_fod6.default.so
-vendor/lib/libgf_hal.so
-vendor/lib/libgf_hal6.so
-vendor/lib/vendor.xiaomi.hardware.fx.tunnel@1.0.so
-vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.default.so
-vendor/lib64/hw/fingerprint.goodix_fod6.so:vendor/lib64/hw/fingerprint.goodix_fod6.default.so
-vendor/lib64/libgf_hal.so
-vendor/lib64/libgf_hal6.so
-vendor/lib64/libhvx_proxy_stub.so
-vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so
+# Fingerprint - from V13.0.10.0.SLBEUXM
+vendor/lib64/hw/fingerprint.goodix_fod6.so:vendor/lib64/hw/fingerprint.goodix_fod6.default.so|ee4fdd75e35e74ca9d2998e6e9e78d6cc9ce44f9
+vendor/lib64/libarm_proxy_skel.so|7987c3859a1792d8bc790c7a41eafd18981ac1f0
+vendor/lib64/libgf_hal6.so|7c28935cbadebe6b7d26dd4f2025d5662e7a39e6
+vendor/lib64/libhvx_proxy_stub.so|dbd3d042e3cef913fba8f7cbfff0d40bc05ebe5e
+vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so|7a32dc0e74318ed2156306287f68ee7cd304b0e5
 
 # Graphics (Adreno firmware)
 vendor/firmware/a660_sqe.fw
