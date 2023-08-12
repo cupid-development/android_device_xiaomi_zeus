@@ -441,6 +441,7 @@ vendor/lib64/camera/com.qti.tuned.zeus_ofilm_ov32b40_front.bin
 vendor/lib64/camera/com.qti.tuned.zeus_semco_imx707_wide.bin
 vendor/lib64/camera/com.qti.tuned.zeus_sunny_s5kjn1_tele.bin
 vendor/lib64/camera/com.qti.tuned.zeus_sunny_s5kjn1_ultra.bin
+vendor/lib64/hw/com.qti.chi.override.so
 
 # Computer vision firmware
 vendor/firmware/evass-lt-21.b00
