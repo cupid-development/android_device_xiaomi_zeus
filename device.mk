@@ -16,6 +16,7 @@ PRODUCT_PACKAGES += \
     FrameworksResZeus \
     NfcResZeus \
     SettingsProviderResZeus \
+    SettingsResZeus \
     SystemUIResZeus \
     WifiResZeus
 
