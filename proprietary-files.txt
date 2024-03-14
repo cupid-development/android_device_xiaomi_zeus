@@ -1036,7 +1036,8 @@ vendor/firmware/evautil64.b06
 vendor/firmware/evautil64.b07
 vendor/firmware/evautil64.mdt
 
-# Display calibration
+# Display configs
+product/etc/displayconfig/display_id_4630947134992368258.xml
 vendor/etc/display/qdcm_calib_data_xiaomi_38_0c_0a_cmd_mode_dsc_dsi_panel.json
 vendor/etc/mdss_dsi_l2_38_0c_0a_dsc_cmd_mi.xml
 
