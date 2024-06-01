@@ -8,7 +8,7 @@
 $(call inherit-product, device/xiaomi/sm8450-common/common.mk)
 
 # Inherit from the proprietary version
-$(call inherit-product, vendor/xiaomi/zeus/zeus-vendor.mk)
+$(call inherit-product, vendor/xiaomi/dagda/dagda-vendor.mk)
 
 # Overlay
 PRODUCT_PACKAGES += \

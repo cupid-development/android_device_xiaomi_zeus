@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_zeus.mk
+    $(LOCAL_DIR)/lineage_dagda.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_zeus-user \
-    lineage_zeus-userdebug \
-    lineage_zeus-eng
+    lineage_dagda-user \
+    lineage_dagda-userdebug \
+    lineage_dagda-eng
