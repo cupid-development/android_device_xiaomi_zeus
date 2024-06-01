@@ -31,7 +31,7 @@ fi
 
 set -e
 
-export DEVICE=zeus
+export DEVICE=dagda
 export DEVICE_COMMON=sm8450-common
 export VENDOR=xiaomi
 
