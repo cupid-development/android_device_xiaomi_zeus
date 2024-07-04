@@ -1,8 +1,8 @@
-# All unpinned blobs below are extracted from zeus V816.0.2.0.ULBCNXM
+# All unpinned blobs below are extracted from zeus V816.0.6.0.ULBEUXM
 
 # ACDB
-vendor/etc/acdbdata/Mise/Mise_acdb_cal.acdb
-vendor/etc/acdbdata/Mise/Mise_workspaceFileXml.qwsp
+vendor/etc/acdbdata/Mise_elus/Mise_elus_acdb_cal.acdb
+vendor/etc/acdbdata/Mise_elus/Mise_elus_workspaceFileXml.qwsp
 
 # ADSP modules
 vendor/lib/rfsa/adsp/bm2n00.bin
@@ -17,6 +17,8 @@ vendor/lib/rfsa/adsp/bm2n08.bin
 vendor/lib/rfsa/adsp/bm2n09.bin
 vendor/lib/rfsa/adsp/bm2n10.bin
 vendor/lib/rfsa/adsp/bm2n11.bin
+vendor/lib/rfsa/adsp/capi_elus_rx.so
+vendor/lib/rfsa/adsp/capi_elus_tx.so
 vendor/lib/rfsa/adsp/hrtf5c.bin
 vendor/lib/rfsa/adsp/libCalculator_skel.so
 vendor/lib/rfsa/adsp/libDspIOProxy_skel.so
