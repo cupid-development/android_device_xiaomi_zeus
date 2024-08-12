@@ -941,27 +941,6 @@ vendor/lib64/libgf_hal6.so
 vendor/lib64/libhvx_proxy_stub.so
 
 # Graphics (Adreno firmware)
-vendor/firmware/a610_zap.b00
-vendor/firmware/a610_zap.b01
-vendor/firmware/a610_zap.b02
-vendor/firmware/a610_zap.elf
-vendor/firmware/a610_zap.mdt
-vendor/firmware/a630_sqe.fw
-vendor/firmware/a660_sqe.fw
-vendor/firmware/a662_gmu.bin
-vendor/firmware/a662_zap.b00
-vendor/firmware/a662_zap.b01
-vendor/firmware/a662_zap.b02
-vendor/firmware/a662_zap.elf
-vendor/firmware/a662_zap.mbn
-vendor/firmware/a662_zap.mdt
-vendor/firmware/a710_sqe.fw
-vendor/firmware/a710_zap.b00
-vendor/firmware/a710_zap.b01
-vendor/firmware/a710_zap.b02
-vendor/firmware/a710_zap.elf
-vendor/firmware/a710_zap.mbn
-vendor/firmware/a710_zap.mdt
 vendor/firmware/a730_sqe.fw
 vendor/firmware/a730_zap.b00
 vendor/firmware/a730_zap.b01
