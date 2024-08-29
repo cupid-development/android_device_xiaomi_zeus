@@ -1,3 +1,6 @@
+# Audio
+ro.hardware.audio.primary=taro-zeus
+
 # Sensors
 ro.vendor.sensors.notifier.light_sensors.primary=5,33171089
 ro.vendor.sensors.xiaomi.udfps=true
