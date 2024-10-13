@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from zeus V816.0.11.0.ULBEUXM
+## are from zeus V816.0.6.0.ULBMIXM
 
 abl.img;AB
 aop.img;AB
