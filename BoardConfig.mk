@@ -12,6 +12,9 @@ include vendor/xiaomi/zeus/BoardConfigVendor.mk
 
 DEVICE_PATH := device/xiaomi/zeus
 
+# Audio
+AUDIO_FEATURE_ENABLED_ULTRASOUND_PROXIMITY := true
+
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/properties/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop
