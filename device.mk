@@ -21,6 +21,15 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display/backlight_calib_xiaomi_38_0c_0a_cmd_mode_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/backlight_calib_xiaomi_38_0c_0a_cmd_mode_dsc_dsi_panel.xml
 
+# LiveDisplay
+$(call soong_config_set_bool,livedisplay_sdm,enable_af,true)
+$(call soong_config_set_bool,livedisplay_sdm,enable_dm,false)
+$(call soong_config_set_bool,livedisplay_sdm,enable_pa,false)
+$(call soong_config_set,livedisplay_sdm,af_min_bl,450)
+
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay-service.sdm
+
 # Overlay
 PRODUCT_PACKAGES += \
     ApertureResZeus \
